@@ -1,0 +1,73 @@
+@media screen and (max-width: 1600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .clenove .col {
+        width: 50%;
+    }
+    .clenove .col:nth-child(3) {
+        clear: both;
+    }
+    .param {
+        font-size: 0.7em
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu ul {
+        display: none;
+    }
+    /*  .menu{position: static;}*/
+    .soc img {
+        z-index: 500;
+        position: relative;
+        margin-top: 0.3em;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .hres {
+        display: none;
+    }
+    .param {
+        font-size: 1em
+    }
+    .brewteam {
+        width: 350px;
+        left: 40%;
+        top: 50%;
+    }
+    .header {
+        min-height: 350px;
+    }
+    .clenove .col,
+    .col,
+    .col5 {
+        width: 100%;
+        float: none;
+    }
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    #piva .col {
+        border-bottom: 2px solid #987758;
+        margin-bottom: 3em;
+        padding-bottom: 2em;
+    }
+    #piva .last {
+        border-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .soc img {
+        margin-left: 0.5em;
+        margin-top: 0.5em
+    }
+}

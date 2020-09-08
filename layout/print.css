@@ -1,0 +1,12 @@
+*{background: none !important; color: #000 !important}
+body{font-size: 12px;}
+.brewteam{width: 150px;}
+.ov, h1{position: static}
+.menu{display: none;}
+.header{height: auto !important; min-height: 0; padding-bottom: 2em; border-bottom: 2px solid #ccc !important;}
+.brewteam{position: static !important; box-shadow: 0px 0px 0px !important; border: 3px solid #000 !important; margin: 0px !important}
+.paticka::before, .wood::before, .wood2::before, .black::before {background: none !important}
+h1 {text-shadow: none !important;}
+.col5 .cont {opacity: 1 !important}
+.sl{box-shadow: none;}
+.paticka{display: none;}

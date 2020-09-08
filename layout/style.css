@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Caveat:700&subset=latin-ext');
+html,
+body {
+    background: #000;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', serif;
+    line-height: 1.7em;
+    font-weight: 400;
+    height: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-size: 1vw;
+}
+
+.h {
+    display: none;
+}
+
+.br {
+    display: block;
+}
+
+.parta {
+    position: relative;
+    z-index: 5;
+    padding: 3em 0 0 0
+}
+
+.popis {
+    color: #fff !important
+}
+
+.paticka {
+    color: #987758;
+    background: #45352d
+}
+
+.breww {
+    background: #fff;
+    display: inline-block;
+    width: 4.375em;
+    height: 4.375em;
+    border-radius: 100%
+}
+
+.breww img {
+    width: 100%;
+    height: 100%
+}
+
+.wood {
+    background: #1d0c01;
+    position: relative;
+    padding-bottom: 2em;
+}
+
+.wood2 {
+    background: #391d06;
+    padding-bottom: 2em;
+    position: relative;
+}
+
+.black {
+    background: #000;
+    position: relative;
+    padding-bottom: 0em;
+}
+
+.paticka {
+    position: relative;
+}
+
+#sladci h2 {
+    padding-bottom: 0.4em
+}
+
+#sladci .txt.center {
+    margin-bottom: 3em
+}
+
+.paticka::before,
+.wood::before,
+.wood2::before,
+.black::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('texture.jpg');
+    opacity: 0.15;
+    background-size: 100%;
+}
+
+.paticka *,
+.wood *,
+.wood2 *,
+.black * {
+    position: relative;
+}
+
+.paticka .wrap {
+    padding: 2em 0;
+}
+
+#piva {
+    padding-top: 1em
+}
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 0 0 4px #000, 0 0 2px #000;
+    position: absolute;
+    bottom: 0.5em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 3em;
+    padding-top: 1em;
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 0;
+    color: #a9937f;
+    line-height: 1.2em
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.2em
+}
+
+h1,
+h2 {
+    font-family: 'Zilla Slab'
+}
+
+h1 {
+    line-height: 0.8em
+}
+
+.menu {
+    position: fixed;
+    background: #000;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 5000;
+    padding: 5px 0;
+}
+
+.menu ul li {
+    font-size: 16px;
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #fff;
+    padding: 0.4em 1em;
+    display: block;
+    text-decoration: none;
+    line-height: 1em;
+}
+
+.menu ul li a:hover {
+    color: #987758
+}
+
+.menu ul li {
+    float: left;
+    list-style: none
+}
+
+.menu ul {
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+.epm {
+    display: block;
+    font-weight: 700;
+    color: #987758;
+}
+
+.alc {
+    display: block;
+    font-weight: 400;
+    color: #987758;
+}
+
+.col p {
+    color: #987758;
+}
+
+.dusty {
+    margin: 1em auto 0.5em auto;
+    line-height: 1em;
+    width: 4em;
+    display: block;
+}
+
+h1 span {
+    display: block;
+    opacity: 0.5;
+    font-size: 0.5em
+}
+
+.wrap {
+    width: 90%;
+    margin: auto;
+}
+
+.col {
+    width: 31%;
+    margin: 1%;
+    float: left;
+    text-align: center
+}
+
+.col img {
+    width: 100%;
+    max-width: 6.063em;
+    margin-top: 0.5em;
+}
+
+.txt {
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.5em
+}
+
+.center {
+    text-align: center;
+}
+
+.col5 {
+    width: 25%;
+    float: left
+}
+
+.col5 .cont {
+    margin: 10px;
+    padding: 1em;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    opacity: 0.7;
+    line-height: 6.250em;
+    height: 6.250em;
+}
+
+.col5 .cont:hover {
+    opacity: 1;
+}
+
+.cont img {
+    max-width: 100%;
+    max-height: 6.250em;
+    ;
+    margin: auto;
+}
+
+.clenove .col {
+    width: 25%;
+    margin: auto;
+}
+
+.clenove .col .cont {
+    margin: 10px;
+    padding: 1em
+}
+
+.clenove .f {
+    border-radius: 10000px;
+    width: 6.250em;
+    height: 6.250em;
+    border: 5px solid #fff;
+    background: #fff;
+}
+
+.header {
+    position: relative;
+    height: 65%;
+    min-height: 34.375em;
+    text-align: center;
+    z-index: 50;
+}
+
+.sl {
+    background-size: cover;
+    background-position: 100% 60%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 20px 50px #000;
+}
+
+.sl4 {
+    background-image: url('bg1.jpg');
+}
+
+.sl1 {
+    background-image: url('bg2.jpg');
+}
+
+.sl3 {
+    background-image: url('bg3.jpg');
+}
+
+.sl2 {
+    background-image: url('bg4.jpg');
+}
+
+.ov {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.brewteam {
+    width: 550px;
+    /* box-shadow: 0px 0px 500px #000, 0px 0px 10px #000, 0px 0px 200px #000; */
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    margin-top: -180px;
+    top: 40%;
+    position: absolute;
+    left: calc(50% - 150px);
+    margin-left: -150px;
+}
+
+.bt img {
+    width: 32px;
+    float: left;
+    margin-top: 2px;
+}
+
+.soc img {
+    float: right;
+    width: 23px;
+    margin-left: 1em;
+    margin-top: 6px;
+}
+
+.soc.b img {
+    float: none;
+    width: 48px;
+}
+
+.bt,
+.soc {
+    opacity: 0.8
+}
+
+.bt:hover,
+.soc:hover {
+    opacity: 1;
+}
+
+.clenove .soc img {
+    position: relative;
+    bottom: -5px;
+    float: none;
+}
+
+.rbeer img {
+    width: 200px;
+    margin-right: 4em;
+    margin-top: 5em
+}
+
+.rbeer {
+    opacity: 0.5
+}
+
+.rbeer:hover {
+    opacity: 1
+}
+
+a {
+    color: #fff;
+}
+
+.sl {
+    position: absolute;
+    transition: opacity 1s ease-in;
+}
+
+.sl+.sl {
+    opacity: 0;
+}
+
+.new {
+    background: #f00;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    font-size: 0.8em;
+    border-radius: 20px;
+    margin-left: -90px;
+    top: 70px;
+    padding: 0 1em;
+    width: 50px;
+    height: 50px;
+    z-index: 5;
+    margin-bottom: 1em;
+    right: 0px;
+}
+
+.pivo {
+    position: relative;
+}
+
+.param span {
+    position: relative;
+    left: -3px
+}
+
+.param {
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.8em;
+    margin: auto;
+}
+
+.param tr th,
+.param tr td {
+    color: #987758;
+    border-right: 1px solid #987758;
+    padding: 0 0.5em;
+    text-align: center;
+}
+
+.param tr td {
+    border-right: 1px solid #987758;
+    color: #987758;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 1.5em;
+    border-bottom: 1px solid #987758;
+    width: 2em;
+    white-space: nowrap
+}
+
+.param tr th:first-child,
+.param tr td:first-child {
+    border-left: 1px solid #987758;
+}
+
+.param tr th {
+    border-top: 1px solid #987758;
+    text-align: center;
+}
+
+.param tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+
+.param tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+    border-width: 1px;
+}
+
+.param tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+.param tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+.sub {
+    display: block;
+    color: #a9937f;
+    font-size: 0.8em;
+    padding: 0.5em 0
+}
+
+.hr hr {
+    display: none;
+}
+
+.hr {
+    height: 2px;
+    border-bottom: 2px solid #987758;
+}
