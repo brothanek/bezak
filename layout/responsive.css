@@ -37,7 +37,7 @@
     }
     .brewteam {
         width: 350px;
-        left: 40%;
+        left: calc(50% - 40px);
         top: 50%;
     }
     .header {
