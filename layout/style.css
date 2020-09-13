@@ -14,7 +14,19 @@ body {
     font-size: 16px;
     font-size: 1vw;
 }
-
+#map {
+    height: 80%;
+    width: 100%;
+    color: #000;
+  }
+.navigate {
+    margin-top: 10px;
+    height: 24px;
+    width: 24px;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+}
 .h {
     display: none;
 }
@@ -272,6 +284,10 @@ h1 span {
     max-height: 6.250em;
     ;
     margin: auto;
+}
+.clenove {
+    display: flex;
+    justify-content: center;
 }
 
 .clenove .col {
