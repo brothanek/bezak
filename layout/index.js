@@ -1,4 +1,3 @@
-
 //google maps
 const data = [
   {
@@ -65,6 +64,15 @@ const data = [
     },
   },
   {
+    name: "Altán café-grill-bar",
+    content: "Na výstavišti 115/1,<br> Mladá Boleslav",
+    placeId: "ChIJ59PteLlVCUcRGNmA6fcm3Po",
+    position: {
+      lat: 50.415630,
+      lng: 14.907986,
+    },
+  },
+  {
     name: "Clock café",
     content: "Českobratrské nám. 57/3<br>Mladá Boleslav",
     placeId: "ChIJs5rKL7lVCUcRJ7IIEhIOrBY",
@@ -78,8 +86,8 @@ const data = [
     content: "Palackého 236<br>Mnichovo Hradiště",
     placeId: "ChIJvTZm2UJSCUcRb313YSt9XXQ",
     position: {
-      lat:  50.523752,
-      lng: 14.973604
+      lat: 50.523752,
+      lng: 14.973604,
     },
   },
   {
@@ -105,9 +113,9 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     center: {
       lat: 50.463051,
-      lng: 15.309961
+      lng: 15.309961,
     },
-    fullscreenControl:false,
+    fullscreenControl: false,
     mapTypeControl: false,
     streetViewControl: false,
 
@@ -208,13 +216,13 @@ function initMap() {
     ],
   })
   const infowindow = new google.maps.InfoWindow()
-  data.map((item) => {
+  let markers = data.map((item) => {
     const marker = new google.maps.Marker({
       map,
       name: item.name,
       content: item.content,
       position: item.position,
-      icon: 'layout/beericon.png',
+      icon: "layout/beericon.png",
       placeId: item.placeId,
       loc: item.position,
     })
@@ -231,7 +239,8 @@ function initMap() {
       )
 
       infowindow.open(map, marker)
-      console.log(infowindow);
+      console.log(infowindow)
     })
+    return marker
   })
 }
