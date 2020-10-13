@@ -32,7 +32,7 @@ html, body {
     justify-content: space-evenly;
 }
 
-.where>div {
+.where .div {
     max-width: 220px;
     display: flex !important;
     flex-direction: column !important;
