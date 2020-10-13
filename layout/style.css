@@ -27,14 +27,15 @@ html, body {
 
 .where {
     font-size: smaller;
-    display: flex;
+    display: flex !important;
     flex-direction: inherit;
     justify-content: space-evenly;
 }
-.where >div{
+
+.where>div {
     max-width: 220px;
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 .navigate {
