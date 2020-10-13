@@ -1,233 +1,360 @@
 <!DOCTYPE html>
 <html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BEZÁK Řemeslný pivovar</title>
+    <meta name="author" content="BEZAK" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <meta property="og:title" content="BREW TEAM - Létající pivovar" />
+    <meta
+      property="og:description"
+      content="Pivo vaříme již více než osm let a naše piva získala mnoho ocenění na domácích i zahraničních soutěžích domácích výrobců piva."
+    />
+    <meta property="og:image" content="socials.jpg" />
+    <meta property="og:url" content="http://www.brewteam.cz/" />
+    <link
+      type="text/css"
+      media="all"
+      href="layout/style.css?20190315-3"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      media="screen"
+      href="layout/responsive.css?20190315-3"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      media="print"
+      href="layout/print.css?20190315-3"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="Pivo vaříme již více než osm let a naše piva získala mnoho ocenění na domácích i zahraničních soutěžích domácích výrobců piva."
+    />
+    <meta name="keywords" content="pivo,pivovar,brew,team" />
+    <link rel="canonical" href="" />
+    <meta name="robots" content="all" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>BEZÁK Řemeslný pivovar</title>
-  <meta name="author" content="BEZAK" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <meta property="og:title" content="BREW TEAM - Létající pivovar" />
-  <meta property="og:description"
-    content="Pivo vaříme již více než osm let a naše piva získala mnoho ocenění na domácích i zahraničních soutěžích domácích výrobců piva." />
-  <meta property="og:image" content="socials.jpg" />
-  <meta property="og:url" content="http://www.brewteam.cz/" />
-  <link type="text/css" media="all" href="layout/style.css?20190315-3" rel="stylesheet" />
-  <link type="text/css" media="screen" href="layout/responsive.css?20190315-3" rel="stylesheet" />
-  <link type="text/css" media="print" href="layout/print.css?20190315-3" rel="stylesheet" />
-  <meta name="description"
-    content="Pivo vaříme již více než osm let a naše piva získala mnoho ocenění na domácích i zahraničních soutěžích domácích výrobců piva." />
-  <meta name="keywords" content="pivo,pivovar,brew,team" />
-  <link rel="canonical" href="" />
-  <meta name="robots" content="all" />
-</head>
-
-<body>
-  <div class="menu" data-scroll-header>
-    <div class="wrap">
-      <a data-scroll href="#uvod" onclick="sc('uvod')" class="bt"><img src="layout/chmel.svg" alt="Chmel" /></a>
-      <ul>
-        <li><a data-scroll href="#piva" onclick="sc('piva')">Piva</a></li>
-        <li>
-          <a data-scroll href="#kde" onclick="sc('kde')">Kde můžete ochutnat</a>
-        </li>
-        <li>
-          <a data-scroll href="#sladek" onclick="sc('sladci')">Sládek</a>
-        </li>
-      </ul>
-      <a href="mailto:info@brewteam.cz" class="soc"><img src="layout/ic-email.svg" alt="Email"
-          title="Email: info@brewteam.cz" /></a>
-      <a href="https://www.pivnici.cz/piva-pivovaru/brew-team-prague/" class="soc"><img src="layout/pivnici.svg"
-          alt="Pivníci" title="Pivníci" /></a>
-      <a href="https://www.ratebeer.com/brewers/brewteam/35611/" class="soc"><img src="layout/ratebeer.svg"
-          alt="Ratebeer" title="Ratebeer" /></a>
-      <a href="https://untappd.com/brewteamcz" class="soc"><img src="layout/untappd.svg" alt="Untappd"
-          title="Untappd" /></a>
-      <a href="https://www.twitter.com/brewteamcz/" class="soc"><img src="layout/twitter.svg" alt="Twitter"
-          title="Twitter" /></a>
-      <a href="https://www.instagram.com/brewteamcz/" class="soc"><img src="layout/instagram.svg" alt="Instagram"
-          title="Instagram" /></a>
-      <a href="https://m.me/brewteamcz" class="soc"><img src="layout/ic-messenger.svg" alt="Messenger"
-          title="Messenger" /></a>
-      <a href="https://www.facebook.com/brewteamcz/" class="soc"><img src="layout/facebook.svg" alt="Facebook"
-          title="Facebook" /></a>
-      <div class="clear"></div>
-    </div>
-  </div>
-
-  <div id="uvod" class="header">
-    <div class="sl sl1"></div>
-    <div class="sl sl2"></div>
-    <div class="sl sl3"></div>
-    <div class="sl sl4"></div>
-    <div class="ov">
-      <img src="bezak/bezak.png" alt="BREW TEAM" class="brewteam" />
-      <!-- <h1>BEZÁK <span>Řemeslný pivovar</span></h1> -->
-    </div>
-  </div>
-
-  <div class="wood">
-    <section id="piva">
-      <h2 class="h">Piva</h2>
+  <body>
+    <div class="menu" data-scroll-header>
       <div class="wrap">
-        <div class="col">
-          <h3>Single Hop Mosaic <span class="sub">Mozajka</span></h3>
-          <div class="pivo">
-            <img src="piva/mozajka2.png" alt="Mozajka" />
-          </div>
-          <p class="popis">
-            Pivo silné světlé svrchně kvašené <span class="br"></span>typu IPA
-          </p>
-          <table class="param">
-            <tr>
-              <th>EPM</th>
-              <th>ABV</th>
-              <th>IBU</th>
-              <th>EBC</th>
-            </tr>
-            <tr>
-              <td>14 %</td>
-              <td>6,0 %</td>
-              <td><span>44</span></td>
-              <td><span>10</span></td>
-            </tr>
-          </table>
-
-          <p>
-            Při výrobě piva byl použit pouze jeden druh chmele (tzv. single
-            hop). Vychutnejte si aromatickou odrůdu chmele Mosaic původem z
-            USA, který v chuti a vůni nabízí komplexní mix tropického ovoce,
-            limetky, manga, ananasu a náznak broskve.
-          </p>
-        </div>
-
-        <div class="col">
-          <h3>Magpie<span class="sub">Žvanilka</span></h3>
-          <div class="pivo">
-            <img src="piva/zvanilka.png" alt="Thirsty GNU" />
-          </div>
-          <p class="popis">
-            Pivo plné světlé svrchně kvašené <span class="br"></span>typu APA
-          </p>
-          <table class="param">
-            <tr>
-              <th>EPM</th>
-              <th>ABV</th>
-              <th>IBU</th>
-              <th>EBC</th>
-            </tr>
-            <tr>
-              <td>11 %</td>
-              <td>4,4 %</td>
-              <td><span>36</span></td>
-              <td><span>11</span></td>
-            </tr>
-          </table>
-
-          <p>
-            Pro chmelení tohoto piva byly použity aromatické odrůdy chmelů
-            Cascade a Centennial původem z USA, které pivu dodávají nejen
-            hořkost, ale také jeho květinovo-citrusové aroma a chuť.
-          </p>
-        </div>
-
-        <div class="col">
-          <h3>Einstein <span class="sub">Einstein</span></h3>
-          <div class="pivo">
-            <img src="piva/einstein.png" alt="Single Hop Enigma" />
-          </div>
-          <p class="popis">
-            Pivo silné světlé svrchně kvašené<span class="br"></span>typu APA
-          </p>
-          <table class="param">
-            <tr>
-              <th>EPM</th>
-              <th>ABV</th>
-              <th>IBU</th>
-              <th>EBC</th>
-            </tr>
-            <tr>
-              <td>13 %</td>
-              <td>5,5 %</td>
-              <td><span>37</span></td>
-              <td><span>9</span></td>
-            </tr>
-          </table>
-
-          <p>
-            AMERICAN PALE ALE je plné pivo ovocné chuti po tropickém ovoci.
-            Byly použity aromatické odrůdy chmelů: WAI-ITI, Ekuanot, LEMON
-            DROP
-          </p>
-        </div>
-
+        <a data-scroll href="#uvod" onclick="sc('uvod')" class="bt"
+          ><img src="layout/chmel.svg" alt="Chmel"
+        /></a>
+        <ul>
+          <li><a data-scroll href="#piva" onclick="sc('piva')">Piva</a></li>
+          <li>
+            <a data-scroll href="#kde" onclick="sc('kde')"
+              >Kde můžete ochutnat</a
+            >
+          </li>
+          <li>
+            <a data-scroll href="#sladek" onclick="sc('sladci')">Sládek</a>
+          </li>
+        </ul>
+        <a href="mailto:info@brewteam.cz" class="soc"
+          ><img
+            src="layout/ic-email.svg"
+            alt="Email"
+            title="Email: info@brewteam.cz"
+        /></a>
+        <a
+          href="https://www.pivnici.cz/piva-pivovaru/brew-team-prague/"
+          class="soc"
+          ><img src="layout/pivnici.svg" alt="Pivníci" title="Pivníci"
+        /></a>
+        <a href="https://www.ratebeer.com/brewers/brewteam/35611/" class="soc"
+          ><img src="layout/ratebeer.svg" alt="Ratebeer" title="Ratebeer"
+        /></a>
+        <a href="https://untappd.com/brewteamcz" class="soc"
+          ><img src="layout/untappd.svg" alt="Untappd" title="Untappd"
+        /></a>
+        <a href="https://www.twitter.com/brewteamcz/" class="soc"
+          ><img src="layout/twitter.svg" alt="Twitter" title="Twitter"
+        /></a>
+        <a href="https://www.instagram.com/brewteamcz/" class="soc"
+          ><img src="layout/instagram.svg" alt="Instagram" title="Instagram"
+        /></a>
+        <a href="https://m.me/brewteamcz" class="soc"
+          ><img src="layout/ic-messenger.svg" alt="Messenger" title="Messenger"
+        /></a>
+        <a href="https://www.facebook.com/brewteamcz/" class="soc"
+          ><img src="layout/facebook.svg" alt="Facebook" title="Facebook"
+        /></a>
         <div class="clear"></div>
-        <div class="hr hres">
-          <hr />
+      </div>
+    </div>
+
+    <div id="uvod" class="header">
+      <div class="sl sl1"></div>
+      <div class="sl sl2"></div>
+      <div class="sl sl3"></div>
+      <div class="sl sl4"></div>
+      <div class="ov">
+        <img src="bezak/bezak.png" alt="BREW TEAM" class="brewteam" />
+        <!-- <h1>BEZÁK <span>Řemeslný pivovar</span></h1> -->
+      </div>
+    </div>
+
+    <div class="wood">
+      <section id="piva">
+        <h2 class="h">Piva</h2>
+        <div class="wrap">
+          <div class="col">
+            <h3>Single Hop Mosaic <span class="sub">Mozajka</span></h3>
+            <div class="pivo">
+              <img src="piva/mozajka2.png" alt="Mozajka" />
+            </div>
+            <p class="popis">
+              Pivo silné světlé svrchně kvašené <span class="br"></span>typu IPA
+            </p>
+            <table class="param">
+              <tr>
+                <th>EPM</th>
+                <th>ABV</th>
+                <th>IBU</th>
+                <th>EBC</th>
+              </tr>
+              <tr>
+                <td>14 %</td>
+                <td>6,0 %</td>
+                <td><span>44</span></td>
+                <td><span>10</span></td>
+              </tr>
+            </table>
+
+            <p>
+              Při výrobě piva byl použit pouze jeden druh chmele (tzv. single
+              hop). Vychutnejte si aromatickou odrůdu chmele Mosaic původem z
+              USA, který v chuti a vůni nabízí komplexní mix tropického ovoce,
+              limetky, manga, ananasu a náznak broskve.
+            </p>
+          </div>
+
+          <div class="col">
+            <h3>Magpie<span class="sub">Žvanilka</span></h3>
+            <div class="pivo">
+              <img src="piva/zvanilka.png" alt="Thirsty GNU" />
+            </div>
+            <p class="popis">
+              Pivo plné světlé svrchně kvašené <span class="br"></span>typu APA
+            </p>
+            <table class="param">
+              <tr>
+                <th>EPM</th>
+                <th>ABV</th>
+                <th>IBU</th>
+                <th>EBC</th>
+              </tr>
+              <tr>
+                <td>11 %</td>
+                <td>4,4 %</td>
+                <td><span>36</span></td>
+                <td><span>11</span></td>
+              </tr>
+            </table>
+
+            <p>
+              Pro chmelení tohoto piva byly použity aromatické odrůdy chmelů
+              Cascade a Centennial původem z USA, které pivu dodávají nejen
+              hořkost, ale také jeho květinovo-citrusové aroma a chuť.
+            </p>
+          </div>
+
+          <div class="col">
+            <h3>Einstein <span class="sub">Einstein</span></h3>
+            <div class="pivo">
+              <img src="piva/einstein.png" alt="Single Hop Enigma" />
+            </div>
+            <p class="popis">
+              Pivo silné světlé svrchně kvašené<span class="br"></span>typu APA
+            </p>
+            <table class="param">
+              <tr>
+                <th>EPM</th>
+                <th>ABV</th>
+                <th>IBU</th>
+                <th>EBC</th>
+              </tr>
+              <tr>
+                <td>13 %</td>
+                <td>5,5 %</td>
+                <td><span>37</span></td>
+                <td><span>9</span></td>
+              </tr>
+            </table>
+
+            <p>
+              AMERICAN PALE ALE je plné pivo ovocné chuti po tropickém ovoci.
+              Byly použity aromatické odrůdy chmelů: WAI-ITI, Ekuanot, LEMON
+              DROP
+            </p>
+          </div>
+
+          <div class="clear"></div>
+          <div class="hr hres">
+            <hr />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="wood2">
+      <div id="kde" class="wrap">
+        <h2>Kde můžete ochutnat</h2>
+        <div
+          class="where"
+          style="
+            font-size: smaller;
+            display: flex !important;
+            flex-direction: inherit;
+            justify-content: space-evenly;
+          "
+        >
+          <div
+            style="
+              max-width: 220px;
+              display: flex !important;
+              flex-direction: column !important;
+            "
+          >
+            <h3>Mladá Boleslav</h3>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/Alt%C3%A1n-caf%C3%A9-grill-bar-327284021049538/"
+              >Altán café-grill-bar</a
+            >
+            <a target="_blank" href="https://www.facebook.com/kavarnaclockcafe/"
+              >Clock café</a
+            >
+            <a target="_blank" href="http://gurman-mb.cz/">Gurmán MB</a
+            ><a target="_blank" href="http://www.pivni-sen.cz/">Pivní sen</a>
+          </div>
+          <div
+            style="
+              max-width: 220px;
+              display: flex !important;
+              flex-direction: column !important;
+            "
+          >
+            <h3>Mnichovo Hradiště</h3>
+            <a target="_blank" href="https://www.facebook.com/vostrov.official/"
+              >Vostrov</a
+            >
+            <a target="_blank" href="https://www.facebook.com/ZahradaHradiste/"
+              >Zahrada Hradiště</a
+            >
+          </div>
+          <div
+            style="
+              max-width: 220px;
+              display: flex !important;
+              flex-direction: column !important;
+            "
+          >
+            <h3>Bělá pod Bezdězem</h3>
+            <a target="_blank" href="http://starapostabela.cz/">Stará Pošta</a>
+          </div>
+          <div
+            style="
+              max-width: 220px;
+              display: flex !important;
+              flex-direction: column !important;
+            "
+          >
+            <h3>Liberec</h3>
+            <a target="_blank" href="http://www.azyl-pivnibar.cz/"
+              >AZYL pivní bar</a
+            >
+            <a target="_blank" href="https://www.barvirna.cz/">BARVÍRNA BAR</a>
+          </div>
+          <div
+            style="
+              max-width: 220px;
+              display: flex !important;
+              flex-direction: column !important;
+            "
+          >
+            <h3>Turnov</h3>
+            <a
+              target="_blank"
+              href="https://facebook.com/TURN-OFF-CLUB-132283476880251"
+              >TURN OFF CLUB</a
+            >
+          </div>
+          <div
+            style="
+              max-width: 220px;
+              display: flex !important;
+              flex-direction: column !important;
+            "
+          >
+            <h3>Ledce</h3>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/pages/category/Restaurant/Hospoda-U-Sedl%C3%A1ka-2395257453847431/"
+              >Hospoda U Sedláka</a
+            >
+          </div>
+          <div
+            style="
+              max-width: 220px;
+              display: flex !important;
+              flex-direction: column !important;
+            "
+          >
+            <h3>Hradec Králové</h3>
+            <a target="_blank" href="https://www.facebook.com/maly.ruzek/"
+              >Hostinec Malý Růžek</a
+            >
+          </div>
         </div>
       </div>
     </section>
-  </div>
+    <div id="map"></div>
 
-  <section class="wood2">
-
-    <div id="kde" class="wrap">
-      <h2>Kde můžete ochutnat</h2>
-      <div class="where">
-        <div><h3>Mladá Boleslav</h3>  <a target='_blank' href="https://www.facebook.com/Alt%C3%A1n-caf%C3%A9-grill-bar-327284021049538/">Altán café-grill-bar</a> <a target='_blank' href="https://www.facebook.com/kavarnaclockcafe/">Clock café</a> <a target='_blank' href="http://gurman-mb.cz/">Gurmán MB</a><a target='_blank' href="http://www.pivni-sen.cz/">Pivní sen</a></div>
-        <div><h3>Mnichovo Hradiště</h3>  <a target='_blank' href="https://www.facebook.com/vostrov.official/">Vostrov</a> <a target='_blank' href="https://www.facebook.com/ZahradaHradiste/">Zahrada Hradiště</a></div>
-        <div><h3>Bělá pod Bezdězem</h3> <a target='_blank' href="http://starapostabela.cz/">Stará Pošta</a></div>
-        <div><h3>Liberec</h3> <a target='_blank' href="http://www.azyl-pivnibar.cz/">AZYL pivní bar</a> <a target='_blank' href="https://www.barvirna.cz/">BARVÍRNA BAR</a></div>
-        <div><h3>Turnov</h3> <a target='_blank' href="https://facebook.com/TURN-OFF-CLUB-132283476880251">TURN OFF CLUB</a></div>
-        <div><h3>Ledce</h3> <a target='_blank' href="https://www.facebook.com/pages/category/Restaurant/Hospoda-U-Sedl%C3%A1ka-2395257453847431/">Hospoda U Sedláka</a></div>
-        <div><h3>Hradec Králové</h3> <a target='_blank' href="https://www.facebook.com/maly.ruzek/">Hostinec Malý Růžek</a></div>
-
-
-      </div>
-
-    </div>
-  </section>
-  <div id='map'></div>
-
-  <section class="black">
-    <div id="sladek" class="wrap">
-      <h2>Sládek</h2>
-      <p class="txt center">
-        Jsem sládek bez vlastního pivovaru a svoje recepty vařím v řemeslných
-        pivovarech mých kamarádů. Pivo vařím již od roku 2017 a moje piva
-        získala mnoho ocenění na českých i zahraničních soutěžích domácích
-        výrobců piva. Jako létající pivovar funguji od roku 2020.
-      </p>
-      <h3 class="h">Sládek</h3>
-      <div class="clenove">
-        <div class="col">
-          <div class="cont">
-            <a href="https://www.facebook.com/milan.bez"><img src="onas/03.jpg" class="f" alt="" /></a>
-            <h4>Milan Bez</h4>
-            <p>Mladá Boleslav<br />Mnichovo Hradiště<br />Liberec</p>
+    <section class="black">
+      <div id="sladek" class="wrap">
+        <h2>Sládek</h2>
+        <p class="txt center">
+          Jsem sládek bez vlastního pivovaru a svoje recepty vařím v řemeslných
+          pivovarech mých kamarádů. Pivo vařím již od roku 2017 a moje piva
+          získala mnoho ocenění na českých i zahraničních soutěžích domácích
+          výrobců piva. Jako létající pivovar funguji od roku 2020.
+        </p>
+        <h3 class="h">Sládek</h3>
+        <div class="clenove">
+          <div class="col">
+            <div class="cont">
+              <a href="https://www.facebook.com/milan.bez"
+                ><img src="onas/03.jpg" class="f" alt=""
+              /></a>
+              <h4>Milan Bez</h4>
+              <p>Mladá Boleslav<br />Mnichovo Hradiště<br />Liberec</p>
+            </div>
           </div>
+          <!-- <div class="col"><div class="cont"><a href="https://www.facebook.com/petr.slepanek.9"><img src="onas/04.jpg" class="f" alt="" /></a><h4>Petr Slepánek </h4><p>Hradec Králové<br />Jaroměř<br />Praha</p></div></div> -->
+          <div class="clear"></div>
         </div>
-        <!-- <div class="col"><div class="cont"><a href="https://www.facebook.com/petr.slepanek.9"><img src="onas/04.jpg" class="f" alt="" /></a><h4>Petr Slepánek </h4><p>Hradec Králové<br />Jaroměř<br />Praha</p></div></div> -->
-        <div class="clear"></div>
       </div>
-    </div>
-  </section>
-  <section class="paticka"></section>
-  <script type="text/javascript" src="layout/index.js"></script>
-  <script type="text/javascript" src="layout/smoothscroll.js"></script>
-  <script>
-    function myFunction() {
-      console.log(markers);
-    }
+    </section>
+    <section class="paticka"></section>
+    <script type="text/javascript" src="layout/index.js"></script>
+    <script type="text/javascript" src="layout/smoothscroll.js"></script>
+    <script>
+      function myFunction() {
+        console.log(markers)
+      }
     </script>
 
-
-
-  <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJOrFK82uasWWMYIaLITAfnp3W4YoriOg&callback=initMap">
-    </script>
-
-
-</body>
-
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJOrFK82uasWWMYIaLITAfnp3W4YoriOg&callback=initMap"
+    ></script>
+  </body>
 </html>
