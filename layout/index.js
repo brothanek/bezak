@@ -68,7 +68,7 @@ const data = [
     content: "Na výstavišti 115/1,<br> Mladá Boleslav",
     placeId: "ChIJ59PteLlVCUcRGNmA6fcm3Po",
     position: {
-      lat: 50.415630,
+      lat: 50.41563,
       lng: 14.907986,
     },
   },
@@ -119,7 +119,7 @@ function initMap() {
     mapTypeControl: false,
     streetViewControl: false,
 
-    zoom: 9,
+    zoom: window.innerWidth < 1000? 8: 10,
     styles: [
       {
         featureType: "landscape",

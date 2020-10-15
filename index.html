@@ -226,7 +226,7 @@
         <div
           class="where"
           style="
-            font-size: smaller;
+            font-size: 14px;
             display: flex !important;
             flex-direction: inherit;
             justify-content: space-evenly;
@@ -234,12 +234,12 @@
         >
           <div
             style="
-              max-width: 220px;
+              max-width: 200px;
               display: flex !important;
               flex-direction: column !important;
             "
           >
-            <h3>Mladá Boleslav</h3>
+            <h4>Mladá Boleslav</h4>
             <a
               target="_blank"
               href="https://www.facebook.com/Alt%C3%A1n-caf%C3%A9-grill-bar-327284021049538/"
@@ -253,12 +253,12 @@
           </div>
           <div
             style="
-              max-width: 220px;
+              max-width: 200px;
               display: flex !important;
               flex-direction: column !important;
             "
           >
-            <h3>Mnichovo Hradiště</h3>
+            <h4>Mnichovo Hradiště</h4>
             <a target="_blank" href="https://www.facebook.com/vostrov.official/"
               >Vostrov</a
             >
@@ -268,22 +268,22 @@
           </div>
           <div
             style="
-              max-width: 220px;
+              max-width: 200px;
               display: flex !important;
               flex-direction: column !important;
             "
           >
-            <h3>Bělá pod Bezdězem</h3>
+            <h4>Bělá pod Bezdězem</h4>
             <a target="_blank" href="http://starapostabela.cz/">Stará Pošta</a>
           </div>
           <div
             style="
-              max-width: 220px;
+              max-width: 200px;
               display: flex !important;
               flex-direction: column !important;
             "
           >
-            <h3>Liberec</h3>
+            <h4>Liberec</h4>
             <a target="_blank" href="http://www.azyl-pivnibar.cz/"
               >AZYL pivní bar</a
             >
@@ -291,12 +291,12 @@
           </div>
           <div
             style="
-              max-width: 220px;
+              max-width: 200px;
               display: flex !important;
               flex-direction: column !important;
             "
           >
-            <h3>Turnov</h3>
+            <h4>Turnov</h4>
             <a
               target="_blank"
               href="https://facebook.com/TURN-OFF-CLUB-132283476880251"
@@ -305,12 +305,12 @@
           </div>
           <div
             style="
-              max-width: 220px;
+              max-width: 200px;
               display: flex !important;
               flex-direction: column !important;
             "
           >
-            <h3>Ledce</h3>
+            <h4>Ledce</h4>
             <a
               target="_blank"
               href="https://www.facebook.com/pages/category/Restaurant/Hospoda-U-Sedl%C3%A1ka-2395257453847431/"
@@ -319,12 +319,12 @@
           </div>
           <div
             style="
-              max-width: 220px;
+              max-width: 200px;
               display: flex !important;
               flex-direction: column !important;
             "
           >
-            <h3>Hradec Králové</h3>
+            <h4>Hradec Králové</h4>
             <a target="_blank" href="https://www.facebook.com/maly.ruzek/"
               >Hostinec Malý Růžek</a
             >
@@ -363,8 +363,8 @@
     <script type="text/javascript" src="layout/index.js"></script>
     <script type="text/javascript" src="layout/smoothscroll.js"></script>
     <script>
-      function myFunction() {
-        console.log(markers)
+      if (window.innerWidth < 1000) {
+        document.getElementsByClassName("where")[0].style.display = "none"
       }
     </script>
 
