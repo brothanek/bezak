@@ -247,12 +247,13 @@ h1 span {
     width: 90%;
     margin: auto;
 }
+
 .beerwrap {
     width: 90%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
 }
 
 .col {
