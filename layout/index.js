@@ -1,6 +1,51 @@
 //google maps
 const data = [
   {
+    name: "Kavárna U Zlatníka",
+    content: "Příkrá 186<br>295 01 Mnichovo Hradiště",
+    placeId: "ChIJY0kEJmhSCUcRI4mylKUHrpQ",
+    position: {
+      lat: 50.526414,
+      lng: 14.973557,
+    },
+  },
+  {
+    name: "Divadelní Klub v MDMB",
+    content: "Palackého 263<br>293 01 Mladá Boleslav",
+    placeId: "ChIJ7--ic7lVCUcR5VLzZI2SNTU",
+    position: {
+      lat: 50.415461,
+      lng: 14.906930,
+    },
+  },
+  {
+    name: "FeDrinx nápoje",
+    content: "I. Olbrachta 308 <br>295 01 Mnichovo Hradiště",
+    placeId: "ChIJo6Bdl11SCUcRUaVjrwp1YRk",
+    position: {
+      lat: 50.518403,
+      lng: 14.976502,
+    },
+  },
+  {
+    name: "Pohostinství u Kavalírů",
+    content: "Suhrovice 38 <br> 294 02",
+    placeId: "ChIJS5UUTE2tDkcR9Rj8G6RHBDI",
+    position: {
+      lat: 50.490714,
+      lng: 15.058187,
+    },
+  },
+  {
+    name: "Klubový výčep Rohatsko",
+    content: "Rohatsko <br> 294 04",
+    // placeId: "ChIJM_nqbExRCUcRDH3qpQT_YCk",
+    position: {
+      lat: 50.439965,
+      lng: 15.104432,
+    },
+  },
+  {
     name: "Stará pošta",
     content: "Masarykovo Náměstí 87 <br>Bělá pod Bezdězem <br> 29421",
     placeId: "ChIJM_nqbExRCUcRDH3qpQT_YCk",
@@ -119,7 +164,7 @@ function initMap() {
     mapTypeControl: false,
     streetViewControl: false,
 
-    zoom: window.innerWidth < 1000? 8: 10,
+    zoom: window.innerWidth < 1000 ? 8 : 10,
     styles: [
       {
         featureType: "landscape",
